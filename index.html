@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab6</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <h2>Форма для введення</h2>
+    <form id="form" method="post">
+        1. Ваше Прізвище і ініціали:<br>
+        <input type="text" id="full_name" name="full_name" placeholder="Прізвище І. П."><br>
+        <br>
+
+        2. Група:<br>
+        <input type="text" id="groupe" name="groupe" placeholder="ІХ-9Х"><br>
+        <br>
+
+        3. Телефон<br>
+        <input type="tel" id="phone" name="phone" placeholder="0950001122"><br>
+        <br>
+
+        4. ID-карта<br>
+        <input type="text" id="card" name="card" placeholder="AA №000000"><br>
+        <br>
+
+        5. Факультет<br>
+        <input type="text" id="faculty" name="faculty" placeholder="ФІОТ"><br>
+        <br>
+        <button onclick="formdata(this.form)">Відправити</button>
+    </form>
+</body>
+</html>
